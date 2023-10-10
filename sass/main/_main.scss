@@ -1,0 +1,228 @@
+/* -------------------index----------------------------------- */
+.main-index {
+    background-color: #212529;
+}
+
+main a {
+    text-decoration: none;
+    color: #212529;
+}
+
+main a:hover {
+    color: orange;
+}
+
+
+
+.card-1 {
+
+    --bs-card-spacer-y: 1rem;
+    --bs-card-spacer-x: 1rem;
+    --bs-card-title-spacer-y: 0.5rem;
+    --bs-card-title-color: ;
+    --bs-card-subtitle-color: ;
+    --bs-card-border-width: var(--bs-border-width);
+    --bs-card-border-color: var(--bs-border-color-translucent);
+    --bs-card-border-radius: var(--bs-border-radius);
+    --bs-card-box-shadow: ;
+    --bs-card-inner-border-radius: calc(var(--bs-border-radius) - (var(--bs-border-width)));
+    --bs-card-cap-padding-y: 0.5rem;
+    --bs-card-cap-padding-x: 1rem;
+    --bs-card-cap-bg: rgba(var(--bs-body-color-rgb), 0.03);
+    --bs-card-cap-color: ;
+    --bs-card-height: ;
+    --bs-card-color: ;
+    --bs-card-bg: var(--bs-body-bg);
+    --bs-card-img-overlay-padding: 1rem;
+    --bs-card-group-margin: 0.75rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    height: var(--bs-card-height);
+    color: var(--bs-body-color);
+    word-wrap: break-word;
+    background-color: lightblue;
+    background-clip: border-box;
+    margin-top: 10px;
+    border-radius: 7px;
+    border: 1px #212529 solid;
+    margin-bottom: 10px;
+}
+
+.card-title-1 {
+    background-color: lightcoral;
+    padding: 2px;
+    padding-left: 10px;
+    border-radius: 4px;
+    font-family: "kadwa", "sherif";
+}
+
+.card-1 p {
+    text-align: center;
+    font-family: 'Istok Web', sans-serif;
+}
+
+.card-1 img {
+    height: 280px;
+}
+
+.card-2 {
+    border-radius: 7px;
+    --bs-card-spacer-y: 1rem;
+    --bs-card-spacer-x: 1rem;
+    --bs-card-title-spacer-y: 0.5rem;
+    --bs-card-title-color: ;
+    --bs-card-subtitle-color: ;
+    --bs-card-border-width: var(--bs-border-width);
+    --bs-card-border-color: var(--bs-border-color-translucent);
+    --bs-card-border-radius: var(--bs-border-radius);
+    --bs-card-box-shadow: ;
+    --bs-card-inner-border-radius: calc(var(--bs-border-radius) - (var(--bs-border-width)));
+    --bs-card-cap-padding-y: 0.5rem;
+    --bs-card-cap-padding-x: 1rem;
+    --bs-card-cap-bg: rgba(var(--bs-body-color-rgb), 0.03);
+    --bs-card-cap-color: ;
+    --bs-card-height: ;
+    --bs-card-color: ;
+    --bs-card-bg: var(--bs-body-bg);
+    --bs-card-img-overlay-padding: 1rem;
+    --bs-card-group-margin: 0.75rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    height: var(--bs-card-height);
+    color: var(--bs-body-color);
+    word-wrap: break-word;
+    background-color: lightblue;
+    background-clip: border-box;
+    margin-top: 10px;
+    border: 1px #212529 solid;
+    margin-bottom: 10px;
+
+}
+
+.card-title-2 {
+    background-color: lightcoral;
+    padding: 2px;
+    padding-left: 10px;
+    border-radius: 4px;
+    font-family: "kadwa", "sherif";
+}
+
+.card-2 p {
+    text-align: center;
+    font-family: 'Istok Web', sans-serif;
+}
+
+.card-2 img {
+    height: 280px;
+}
+
+.card-3 {
+    border-radius: 7px;
+    --bs-card-spacer-y: 1rem;
+    --bs-card-spacer-x: 1rem;
+    --bs-card-title-spacer-y: 0.5rem;
+    --bs-card-title-color: ;
+    --bs-card-subtitle-color: ;
+    --bs-card-border-width: var(--bs-border-width);
+    --bs-card-border-color: var(--bs-border-color-translucent);
+    --bs-card-border-radius: var(--bs-border-radius);
+    --bs-card-box-shadow: ;
+    --bs-card-inner-border-radius: calc(var(--bs-border-radius) - (var(--bs-border-width)));
+    --bs-card-cap-padding-y: 0.5rem;
+    --bs-card-cap-padding-x: 1rem;
+    --bs-card-cap-bg: rgba(var(--bs-body-color-rgb), 0.03);
+    --bs-card-cap-color: ;
+    --bs-card-height: ;
+    --bs-card-color: ;
+    --bs-card-bg: var(--bs-body-bg);
+    --bs-card-img-overlay-padding: 1rem;
+    --bs-card-group-margin: 0.75rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    height: var(--bs-card-height);
+    color: var(--bs-body-color);
+    word-wrap: break-word;
+    background-color: lightblue;
+    background-clip: border-box;
+    margin-top: 10px;
+    border: 1px #212529 solid;
+    margin-bottom: 10px;
+}
+
+.card-title-3 {
+    background-color: lightcoral;
+    padding: 2px;
+    padding-left: 10px;
+    border-radius: 4px;
+    font-family: "kadwa", "sherif";
+}
+
+.card-3 p {
+    text-align: center;
+    font-family: 'Istok Web', sans-serif;
+
+}
+
+.card-3 img {
+    height: 280px;
+}
+
+.card-4 {
+    border-radius: 8px;
+    --bs-card-spacer-y: 1rem;
+    --bs-card-spacer-x: 1rem;
+    --bs-card-title-spacer-y: 0.5rem;
+    --bs-card-title-color: ;
+    --bs-card-subtitle-color: ;
+    --bs-card-border-width: var(--bs-border-width);
+    --bs-card-border-color: var(--bs-border-color-translucent);
+    --bs-card-border-radius: var(--bs-border-radius);
+    --bs-card-box-shadow: ;
+    --bs-card-inner-border-radius: calc(var(--bs-border-radius) - (var(--bs-border-width)));
+    --bs-card-cap-padding-y: 0.5rem;
+    --bs-card-cap-padding-x: 1rem;
+    --bs-card-cap-bg: rgba(var(--bs-body-color-rgb), 0.03);
+    --bs-card-cap-color: ;
+    --bs-card-height: ;
+    --bs-card-color: ;
+    --bs-card-bg: var(--bs-body-bg);
+    --bs-card-img-overlay-padding: 1rem;
+    --bs-card-group-margin: 0.75rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    height: var(--bs-card-height);
+    color: var(--bs-body-color);
+    word-wrap: break-word;
+    background-color: lightblue;
+    background-clip: border-box;
+    margin-top: 10px;
+    border: 1px #212529 solid;
+    margin-bottom: 10px;
+}
+
+.card-title-4 {
+    background-color: lightcoral;
+    padding: 2px;
+    padding-left: 10px;
+    border-radius: 4px;
+    font-family: "kadwa", "sherif";
+}
+
+.card-4 p {
+    text-align: center;
+    font-family: 'Istok Web', sans-serif;
+}
+
+.card-4 img {
+    height: 280px;
+}
+
+/*------------------------final Index----------------------------*/

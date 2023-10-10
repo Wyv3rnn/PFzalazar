@@ -1,0 +1,49 @@
+/*----------------------------diseño del footer-------------------- */
+footer {
+    background-color: #101113;
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+    text-align: center;
+}
+
+.lugares-de-atencion {
+    display: flex;
+    flex-direction: column;
+}
+
+.lugares-de-atencion h3 {
+    font-size: 100%;
+    color: #fff;
+}
+
+.lugares-de-atencion a {
+    margin-top: 6px;
+}
+
+.contactos {
+    display: flex;
+    flex-direction: column;
+}
+
+.contactos h3 {
+
+    font-size: 100%;
+    color: #fff;
+}
+
+.contactos a {
+    margin-top: 5%;
+}
+
+.contactos p {
+    color: #fff;
+}
+
+.icons {
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+}
+
+/* ------------------fin diseño de footer------------------*/

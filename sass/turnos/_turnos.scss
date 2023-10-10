@@ -1,0 +1,169 @@
+/*-----------------------------------page-turnos-----------------------------------------*/
+
+.h1-turnos {
+    padding: 20px 10px 20px 10px;
+    margin-bottom: 0px;
+    text-align: center;
+    font-size: 40px;
+    background-color: #212529;
+    color: #fff;
+    font-family: "kadwa", "sherif";
+}
+
+@media only screen and (max-width:500px) {
+
+
+    .turnero {
+        flex-direction: column;
+        display: flex;
+        justify-content: space-between;
+        background-color: #212529;
+    }
+
+    .Datos-paciente {
+        padding: 5%;
+        background-color: lightcoral;
+        margin: 5%;
+        border-radius: 10px;
+    }
+
+    .Datos-paciente h2 {
+        font-family: "Kadwa";
+    }
+
+    .formulario-paciente {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .formulario-paciente input {
+        margin: 5%;
+        border-radius: 5px;
+        border: 1px #212529 solid;
+        width: 100%;
+    }
+
+    .Datos-medico {
+        padding: 5%;
+        background-color: lightblue;
+        margin: 5%;
+        border-radius: 10px
+    }
+
+    .Datos-medico h2 {
+        font-family: "kadwa";
+
+        text-align: center;
+    }
+
+    .Datos-medico p {
+        font-family: "istok web";
+        text-align: center;
+    }
+
+    .Formulario-medico {
+        display: flex;
+        flex-direction: column;
+        align-items: center
+    }
+    .Formulario-medico select {
+        margin: 5%;
+        border-radius: 5px;
+        border: 1px #212529 solid;
+    }
+
+    .fecha-hora {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .fecha {
+        border-radius: 3px;
+        border: 1px #212529 solid;
+        margin-right: 5%;
+    }
+
+    .hora {
+        border-radius: 3px;
+        border: 1px #212529 solid;
+
+    }
+
+}
+
+@media only screen and (min-width:501px) {
+
+    .turnero {
+        flex-direction: row;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .Datos-paciente {
+        padding: 4% 6% 4% 6%;
+        background-color: lightcoral;
+        margin: 20px;
+        border-radius: 10px;
+    }
+
+    .Datos-paciente h2 {
+        font-family: "Kadwa";
+    }
+
+    .formulario-paciente {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .formulario-paciente input {
+        margin: 10px;
+        border-radius: 5px;
+        border: 1px #212529 solid;
+    }
+
+    .Datos-medico {
+        padding: 4% 6% 4% 6%;
+        background-color: lightblue;
+        margin: 20px;
+        border-radius: 10px
+    }
+    .Datos-medico h2 {
+        font-family: "kadwa";
+
+        text-align: center;
+    }
+
+    .Datos-medico p {
+        font-family: "istok web";
+        text-align: center;
+    }
+
+    .Formulario-medico {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .fecha-hora {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .fecha {
+        border-radius: 3px;
+        border: 1px #212529 solid;
+        margin-right: 5%;
+    }
+
+    .hora {
+        border-radius: 3px;
+        border: 1px #212529 solid;
+    }
+
+    .Formulario-medico p {
+        font-size: 80%;
+    }
+}
+/*----------------------------------------------fin page-turnos--------------------------------------------*/
