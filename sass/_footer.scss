@@ -6,44 +6,63 @@ footer {
     padding: 5px;
     text-align: center;
 }
+.icons {
+    
+    width: 20px;
+    height: 20px;
+}
 
 .lugares-de-atencion {
     display: flex;
     flex-direction: column;
+    h3 {
+        font-family: "kadwa", "sherif";
+        font-size: 100%;
+        color: #fff;
+    }
+    a {
+        
+        background-color: lightgreen;
+        border-radius: 8px;
+        text-decoration: none;
+        margin-top: 6px;
+        
+    }
+    .lugar-2{
+        margin-top: 10px;
+    }
 }
 
-.lugares-de-atencion h3 {
-    font-size: 100%;
-    color: #fff;
-}
 
-.lugares-de-atencion a {
-    margin-top: 6px;
-}
 
 .contactos {
     display: flex;
     flex-direction: column;
-}
-
-.contactos h3 {
-
+    h3 {
+    font-family: "kadwa", "sherif";
     font-size: 100%;
     color: #fff;
+    }
+    a {
+        text-decoration: none;
+        margin-top: 5%;
+        margin-left: 10%;
+        margin-right: 10%;
+        background-color: lightgreen;
+        border-radius: 10px;
+    }
+    p { 
+        margin-top: 5%;
+        padding-left: 10px;
+        padding-right: 10px;
+        background-color: lightgreen;
+        border-radius: 10px;
+        color: black;
+        .icons{
+            margin-left: 3px;
+            margin-bottom: 3px;
+        }
+    }
+    
 }
-
-.contactos a {
-    margin-top: 5%;
-}
-
-.contactos p {
-    color: #fff;
-}
-
-.icons {
-    width: 20px;
-    height: 20px;
-    margin: 5px;
-}
-
 /* ------------------fin diseño de footer------------------*/

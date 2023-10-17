@@ -1,29 +1,17 @@
-/*-----------------------------------page-turnos-----------------------------------------*/
+@media only screen and (max-width:500px) {
 
-.h1-turnos {
-    padding: 20px 10px 20px 10px;
-    margin-bottom: 0px;
-    text-align: center;
-    font-size: 40px;
-    background-color: #212529;
-    color: #fff;
-    font-family: "kadwa", "sherif";
-}
-
-
-
-@media only screen and (min-width:501px) {
 
     .turnero {
-        flex-direction: row;
+        flex-direction: column;
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
+        background-color: #212529;
     }
 
     .Datos-paciente {
-        padding: 4% 6% 4% 6%;
+        padding: 5%;
         background-color: lightcoral;
-        margin: 20px;
+        margin: 5%;
         border-radius: 10px;
     }
 
@@ -38,17 +26,19 @@
     }
 
     .formulario-paciente input {
-        margin: 10px;
+        margin: 5%;
         border-radius: 5px;
         border: 1px #212529 solid;
+        width: 100%;
     }
 
     .Datos-medico {
-        padding: 4% 6% 4% 6%;
+        padding: 5%;
         background-color: lightblue;
-        margin: 20px;
+        margin: 5%;
         border-radius: 10px
     }
+
     .Datos-medico h2 {
         font-family: "kadwa";
 
@@ -62,8 +52,13 @@
 
     .Formulario-medico {
         display: flex;
-        align-items: center;
         flex-direction: column;
+        align-items: center
+    }
+    .Formulario-medico select {
+        margin: 5%;
+        border-radius: 5px;
+        border: 1px #212529 solid;
     }
 
     .fecha-hora {
@@ -80,10 +75,7 @@
     .hora {
         border-radius: 3px;
         border: 1px #212529 solid;
+
     }
 
-    .Formulario-medico p {
-        font-size: 80%;
-    }
 }
-/*----------------------------------------------fin page-turnos--------------------------------------------*/

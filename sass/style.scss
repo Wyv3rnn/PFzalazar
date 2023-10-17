@@ -1,6 +1,11 @@
 @import "nav";
 @import "footer";
-@import "header";
-@import "../sass/turnos/turnos";
 @import "../sass/main/main";
-@import "../sass/profesionales/profesionales"
+@import "../sass/turnos/turnos";
+@import "../sass/profesionales/profesionales";
+@import"../sass/obras-sociales/obras-sociales";
+@import"../sass/biografia/biografia";
+@import "../sass/responsive/profecionales";
+@import "../sass/responsive/obras-sociales";
+@import"../sass/responsive/turnos";
+@import "../sass/responsive/biografia";

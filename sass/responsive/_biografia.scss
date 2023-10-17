@@ -1,0 +1,12 @@
+@media only screen and (max-width:650px) {
+    .main-biografia {
+        img {
+            grid-column: 1/2;
+            grid-row: 2/3;
+            height: 150px;
+            width: 150px;
+            align-self: center;
+            justify-self: center;
+        }
+    }
+}

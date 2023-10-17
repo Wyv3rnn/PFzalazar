@@ -1,0 +1,34 @@
+@media only screen and (min-width:630px){
+
+    .main-obras-sociales{
+        h1{
+            padding: 40px 10px 40px 10px;
+            text-align: center;
+            font-size: 40px;
+            background-color: #212529;
+            color: #fff;
+            font-family: "kadwa", "sherif";
+        }
+        h2{
+        font-size: 100%;
+        text-align: center;
+        font-family: "kadwa", "sherif";
+        margin-top: 5%;   
+        }
+        div{
+        display: grid;
+        grid-template-columns: 20% 20% 20% 20%;
+        grid-template-rows: 150px 150px 150px 150px 150px;
+        align-items: center;
+        justify-content: center;
+        column-gap: 15px;
+        p{
+            font-family: 'Istok Web', sans-serif;
+            padding-bottom: 10px;
+            background-image: linear-gradient(to top , lightgreen ,white);
+            border-radius: 10px;
+            text-align: center;
+        }
+        }
+    }
+}
