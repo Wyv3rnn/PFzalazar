@@ -5,8 +5,7 @@
             padding: 40px 10px 40px 10px;
             text-align: center;
             font-size: 40px;
-            background-color: #212529;
-            color: #fff;
+            background-color: #ffff;
             font-family: "kadwa", "sherif";
         }
         h2{
@@ -22,13 +21,10 @@
         grid-template-rows: 75px 75px 75px 75px 75px 75px 75px 75px 75px 75px ;
         align-items: center;
         justify-content: center;
-        column-gap: 15px;
-        p{
-            font-family: 'Istok Web', sans-serif;
-            padding-bottom: 5px;
-            background-image: linear-gradient(to top , lightgreen ,white);
-            border-radius: 10px;
-            text-align: center;
+        column-gap: 50px;
+        img{
+            height: 100%;
+            width: 100%;
         }
         }
     }

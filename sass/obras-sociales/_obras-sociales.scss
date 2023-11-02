@@ -5,8 +5,7 @@
             padding: 40px 10px 40px 10px;
             text-align: center;
             font-size: 40px;
-            background-color: #212529;
-            color: #fff;
+            background-color: #ffff;
             font-family: "kadwa", "sherif";
         }
         h2{
@@ -19,15 +18,14 @@
         display: grid;
         grid-template-columns: 20% 20% 20% 20%;
         grid-template-rows: 150px 150px 150px 150px 150px;
+        row-gap: 15px;
+        column-gap: 15px;
         align-items: center;
         justify-content: center;
-        column-gap: 15px;
-        p{
-            font-family: 'Istok Web', sans-serif;
-            padding-bottom: 10px;
-            background-image: linear-gradient(to top , lightgreen ,white);
-            border-radius: 10px;
-            text-align: center;
+        margin-bottom: 50px;
+        img{
+            height: 100%;
+            width: 100%;
         }
         }
     }

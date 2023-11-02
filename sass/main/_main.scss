@@ -1,15 +1,27 @@
 /* -------------------index----------------------------------- */
 .main-index {
-    background-color: #212529;
+    background-color: #ffff;
+    margin-bottom: 50px;
+    h1{
+        text-align: center;
+        margin-bottom: 50px;
+        margin-top: 50px;
+    }
 }
 
 main a {
     text-decoration: none;
-    color: #212529;
+    font-weight: lighter;
+    color: white;
+    :hover {
+        color: #c42340;
+    }
 }
-
-main a:hover {
-    color: orange;
+.color-1{
+    color: #4b968f;
+}
+.color-2{
+    color: #c42340;
 }
 
 
@@ -46,12 +58,16 @@ main a:hover {
     background-clip: border-box;
     margin-top: 10px;
     border-radius: 7px;
-    border: 1px #212529 solid;
+    background-color: #4b968f;
     margin-bottom: 10px;
+    border: solid #4b968f 2px;
 }
 
 .card-title-1 {
-    background-color: lightcoral;
+    background-color: #c42340;
+    &:hover{
+        background-color:lightcoral;
+    }
     padding: 2px;
     padding-left: 10px;
     border-radius: 4px;
@@ -98,13 +114,17 @@ main a:hover {
     background-color: lightblue;
     background-clip: border-box;
     margin-top: 10px;
-    border: 1px #212529 solid;
+    background-color: #4b968f;
     margin-bottom: 10px;
+    border: solid #4b968f 2px;
 
 }
 
 .card-title-2 {
-    background-color: lightcoral;
+    background-color:#c42340 ;
+    &:hover{
+        background-color:lightcoral;
+    }
     padding: 2px;
     padding-left: 10px;
     border-radius: 4px;
@@ -151,12 +171,16 @@ main a:hover {
     background-color: lightblue;
     background-clip: border-box;
     margin-top: 10px;
-    border: 1px #212529 solid;
+    background-color: #4b968f;
     margin-bottom: 10px;
+    border: solid #4b968f 2px;
 }
 
 .card-title-3 {
-    background-color: lightcoral;
+    background-color: #c42340;
+    &:hover{
+        background-color:lightcoral;
+    }
     padding: 2px;
     padding-left: 10px;
     border-radius: 4px;
@@ -174,7 +198,7 @@ main a:hover {
 }
 
 .card-4 {
-    border-radius: 8px;
+    border-radius: 7px;
     --bs-card-spacer-y: 1rem;
     --bs-card-spacer-x: 1rem;
     --bs-card-title-spacer-y: 0.5rem;
@@ -201,15 +225,18 @@ main a:hover {
     height: var(--bs-card-height);
     color: var(--bs-body-color);
     word-wrap: break-word;
-    background-color: lightblue;
+    background-color: #4b968f;
     background-clip: border-box;
     margin-top: 10px;
-    border: 1px #212529 solid;
     margin-bottom: 10px;
+    border: solid #4b968f 2px;
 }
 
 .card-title-4 {
-    background-color: lightcoral;
+    background-color: #c42340;
+    &:hover{
+        background-color:lightcoral;
+    }
     padding: 2px;
     padding-left: 10px;
     border-radius: 4px;

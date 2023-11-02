@@ -1,12 +1,36 @@
 <!doctype html>
-<html lang="en">
+<html lang="es">
 
 <head>
+    <!--favicon-->
+    <link rel="apple-touch-icon" sizes="57x57" href="icons/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="icons/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="icons/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="icons/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="icons/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="icons/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="icons/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="icons/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="icons/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="icons/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="icons/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon/favicon-16x16.png">
+    <!--meta-->
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">F
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>inicio</title>
+    <meta name="descrption"
+        content="centro medico con profecionales en las areas de cardiologia,pediatria,dermatologia,estetica cirugia General y Anatomia Patologica">
+    <meta name="keywords"
+        content="Cardiología,Pediatría,Dermatología,Cirugía General,Anatomía Patológica,Especialidades Médicas,Médicos Especialistas,Cuidado de la Salud,Servicios Médicos,Cardiólogo,Pediatra,Dermatólogo,Cirujano General,Patólogo,Servicios de Estética,Tratamientos Estéticos,Cirugía Estética,Salud del Corazón,Salud Infantil,Diagnóstico Patológico,Consulta Médica,Tratamientos Dermatológicos,Cirugía Cardíaca,Atención Pediátrica,Cirugía Plástica">
+    <title>Centro medico</title>
+    <!-- bootstrap y css-->
+    <link rel="manifest" href="/manifest.json">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="styles/style.css">
     <!--istok web regular 400-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -22,7 +46,7 @@
     <header>
         <nav class="navbar navbar-expand-lg ">
             <div class="container-fluid">
-                <a class="navbar-brand" href=""><img src="icons/pngwing 1.png" alt="" class="nav-logo"></a>
+                <a class="navbar-brand" href="index.html"><img src="icons/pngwing 1.png" alt="" class="nav-logo"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -47,13 +71,16 @@
         </nav>
     </header>
     <main class="main-index">
+        <h1> <span class="color-2">En que</span> <span class="color-1">podemos</span> <span
+                class="color-2">ayudarle</span></h1>
         <div class="row row-cols-1 row-cols-md-2 g-4">
             <div class="col-sm-12 col-md-6 ">
                 <div class="card-1 ">
                     <img src="images/card-1-img.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title-1"><a href="pages/turnos.html"><strong>Turnos</strong></a></h5>
-                        <p class="card-text">Gestiona tu turno desde donde quieras con nuestro portal de pacientes. </p>
+                        <p class="card-text">Gestiona tu turno donde y cuando quieras haciendo uso de nuestro portal de
+                            pacientes.</p>
                     </div>
                 </div>
             </div>
@@ -92,18 +119,23 @@
         </div>
     </main>
     <footer>
-        <div class="lugares-de-atencion">
-            <h3>lugares de atencion</h3>
-            <a class="lugar-1" href="https://maps.app.goo.gl/8ZPFxatWpjZdxvjv8">Ubicacion2-845 <img
+        <div class="contacto">
+            <h3 class="ubicaciones">Podes <span class="color-2">Encontranos</span>en las siguientes <span
+                    class="color-2">Ubicaciones</span></h3>
+            <div class="separador-1"></div>
+            <a class="lugar-1" href="https://maps.app.goo.gl/8ZPFxatWpjZdxvjv8">Ubicacion1-845 <img
                     src="icons/logo-ubicacion.png" alt="Ubicacion1-854" class="icons"> </a>
             <a class="lugar-2" href="https://maps.app.goo.gl/8ZPFxatWpjZdxvjv8"> Ubicacion2-845<img
                     src="icons/logo-ubicacion.png" alt="Ubicacion2-845" class="icons"></a>
-        </div>
-        <div class="contactos">
-            <h3>contactanos</h3>
-            <a class="instragram" href="">Instragram <img src="icons/logo-instagram.png" alt="instragram"
-                    class="icons"></a>
-            <a class="facebook" href="">Facebook <img src="icons/logo-facebook.png" alt="facebook" class="icons"></a>
+            <h3 class="comunicaciones">como <span class="color-2">comunicarte</span> con nosotros</h3>
+            <div class="separador-2"></div>
+            <a class="gmail" href="gmail.com">hospital.gmail.com</a>
+            <div class="redes">
+                <a class="instagram" href="www.instagram.com">Instragram <img src="icons/logo-instagram.png"
+                        alt="instragram" class="icons"></a>
+                <a class="facebook" href="www.facebook.com">Facebook <img src="icons/logo-facebook.png" alt="facebook"
+                        class="icons"></a>
+            </div>
             <p class="telefono">###-########<img src="icons/logo-telefono.png" alt="telefono" class="icons"></p>
         </div>
     </footer>
