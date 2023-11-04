@@ -20,129 +20,126 @@ header {
   z-index: 10;
 }
 
-@media only screen and (min-width: 1299px) {
+@media only screen and (min-width: 725px) {
   footer {
-    padding-top: 70px;
+    padding-top: 100px;
     padding-bottom: 10px;
     height: 400px;
     background-color: #4b968f;
-    text-align: center;
-  }
-  .icons {
-    width: 20px;
-    height: 20px;
-  }
-  .contacto {
-    margin: 20px;
-    border-radius: 10px;
     display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 20px 30px 40px 30px 30px;
-    justify-items: start;
-    height: 150px;
-    width: 100%;
-    padding-top: 20px;
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: 30px 30px 30px 30px 30px;
   }
-  .contacto h3 {
-    font-family: "kadwa", "sherif";
-    font-size: 26px;
-    font-weight: bold;
-    color: white;
-  }
-  .contacto h3.ubicaciones {
-    grid-row: 1/2;
-    grid-column: 1/2;
-    align-self: center;
-  }
-  .contacto h3.comunicaciones {
-    grid-row: 1/2;
-    grid-column: 2/3;
-    align-self: center;
-  }
-  .contacto .color-1 {
-    color: #4b968f;
-  }
-  .contacto .color-2 {
-    color: #c42340;
-  }
-  .contacto div {
-    grid-row: 3/4;
-    grid-column: 2/3;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-  }
-  .contacto div.separador-1 {
-    grid-row: 2/3;
-    grid-column: 1/2;
-    align-self: center;
-    justify-self: baseline;
-    width: 250px;
-    height: 3px;
-    border-radius: 3px;
-    background-color: white;
-  }
-  .contacto div.separador-2 {
-    grid-row: 2/3;
-    grid-column: 2/3;
-    align-self: center;
-    justify-self: baseline;
+  footer img {
     width: 200px;
+    grid-column: 1/2;
+  }
+  footer div.ubicaciones {
+    grid-column: 2/3;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 30px 30px 30px 30px 30px;
+  }
+  footer div.ubicaciones h3 {
+    color: white;
+    grid-row: 1/2;
+  }
+  footer div.ubicaciones div {
+    grid-row: 2/3;
+  }
+  footer div.ubicaciones div .separador-1 {
+    margin-top: 5px;
+    display: block;
+    width: 50px;
     height: 3px;
-    border-radius: 3px;
     background-color: white;
   }
-  .contacto a {
-    font-size: 20px;
-    text-decoration: none;
-    align-self: center;
-    margin-left: 20%;
-    padding: 2px;
-  }
-  .contacto a:link {
-    color: white;
-  }
-  .contacto a:hover {
-    border-radius: 5px;
+  footer div.ubicaciones a:hover {
     background-color: white;
-    color: gray;
+    color: black;
+    border-radius: 4px;
   }
-  .contacto a.lugar-1 {
+  footer div.ubicaciones .lugar-1 {
+    justify-self: start;
+    align-self: end;
     grid-row: 3/4;
-    grid-column: 1/2;
-  }
-  .contacto a.lugar-2 {
-    grid-row: 5/6;
-    grid-column: 1/2;
-  }
-  .contacto a.instagram {
-    margin-top: 10px;
-  }
-  .contacto a.facebook {
-    margin-top: 10px;
-  }
-  .contacto a.gmail {
-    grid-row: 5/6;
-    grid-column: 2/3;
-    margin-left: 10%;
-  }
-  .contacto .icons {
-    margin-left: 5px;
-    margin-bottom: 3px;
-  }
-  .contacto p {
-    font-size: 20px;
-    margin-top: 20px;
-    padding-left: 10px;
-    padding-right: 10px;
+    text-decoration: none;
+    padding: 4px;
     color: white;
   }
-  .contacto p.telefono {
-    margin-left: 9%;
-    grid-row: 6/7;
+  footer div.ubicaciones .lugar-2 {
+    justify-self: start;
+    align-self: end;
+    padding: 4px;
+    color: white;
+    text-decoration: none;
+    grid-row: 5/6;
+  }
+  footer div.contacto {
+    grid-column: 3/4;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 30px 30px 120px 30px;
+  }
+  footer div.contacto h3 {
+    color: white;
+    grid-row: 1/2;
+  }
+  footer div.contacto div {
+    grid-row: 2/3;
+  }
+  footer div.contacto div .separador-2 {
+    margin-top: 5px;
+    display: block;
+    width: 50px;
+    height: 3px;
+    background-color: white;
+  }
+  footer div.contacto .redes {
+    grid-row: 3/4;
+    display: grid;
+    grid-template-columns: 100px 70px;
+    grid-template-rows: 40px 30px 30px;
+    justify-content: start;
+  }
+  footer div.contacto .redes a:hover {
+    background-color: white;
+    color: black;
+    border-radius: 4px;
+  }
+  footer div.contacto .redes .facebook {
+    grid-row: 1/2;
+    justify-self: start;
+    align-self: center;
+    padding: 4px;
+  }
+  footer div.contacto .redes .instagram {
+    align-self: center;
+    justify-self: start;
+    grid-row: 1/2;
     grid-column: 2/3;
+    padding: 4px;
+  }
+  footer div.contacto .redes .gmail {
+    padding-left: 4px;
+    color: white;
+    text-decoration: none;
+    grid-row: 3/4;
+    grid-column: 1/3;
+  }
+  footer div.contacto p {
+    margin-left: 15px;
+    margin-top: 30px;
+    color: white;
+    align-self: center;
+    justify-self: start;
   }
 }
+.icons {
+  width: 30px;
+  height: 30px;
+}
+
 /* -------------------index----------------------------------- */
 .main-index {
   background-color: white;
@@ -1032,256 +1029,6 @@ main a :hover {
     width: 150px;
     align-self: center;
     justify-self: center;
-  }
-}
-@media only screen and (max-width: 1299px) and (min-width: 601px) {
-  footer {
-    padding-top: 70px;
-    padding-bottom: 10px;
-    height: 400px;
-    background-color: #4b968f;
-    text-align: center;
-  }
-  .icons {
-    width: 20px;
-    height: 20px;
-  }
-  .contacto {
-    margin: 20px;
-    border-radius: 10px;
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 20px 30px 40px 30px 30px;
-    justify-items: start;
-    height: 150px;
-    width: 100%;
-    padding-top: 20px;
-  }
-  .contacto h3 {
-    font-family: "kadwa", "sherif";
-    font-size: 17px;
-    font-weight: bold;
-    color: white;
-  }
-  .contacto h3.ubicaciones {
-    grid-row: 1/2;
-    grid-column: 1/2;
-    align-self: center;
-  }
-  .contacto h3.comunicaciones {
-    grid-row: 1/2;
-    grid-column: 2/3;
-    align-self: center;
-  }
-  .contacto .color-1 {
-    color: #4b968f;
-  }
-  .contacto .color-2 {
-    color: #c42340;
-  }
-  .contacto div {
-    grid-row: 3/4;
-    grid-column: 2/3;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-  }
-  .contacto div.separador-1 {
-    grid-row: 2/3;
-    grid-column: 1/2;
-    align-self: center;
-    justify-self: baseline;
-    width: 150px;
-    height: 3px;
-    border-radius: 3px;
-    background-color: white;
-  }
-  .contacto div.separador-2 {
-    grid-row: 2/3;
-    grid-column: 2/3;
-    align-self: center;
-    justify-self: baseline;
-    width: 150px;
-    height: 3px;
-    border-radius: 3px;
-    background-color: white;
-  }
-  .contacto a {
-    font-size: 13px;
-    text-decoration: none;
-    align-self: center;
-    margin-left: 20%;
-    padding: 2px;
-  }
-  .contacto a:link {
-    color: white;
-  }
-  .contacto a:hover {
-    border-radius: 5px;
-    background-color: white;
-    color: gray;
-  }
-  .contacto a.lugar-1 {
-    grid-row: 3/4;
-    grid-column: 1/2;
-  }
-  .contacto a.lugar-2 {
-    grid-row: 5/6;
-    grid-column: 1/2;
-  }
-  .contacto a.instagram {
-    margin-top: 10px;
-  }
-  .contacto a.facebook {
-    margin-top: 10px;
-  }
-  .contacto a.gmail {
-    grid-row: 5/6;
-    grid-column: 2/3;
-    margin-left: 10%;
-  }
-  .contacto .icons {
-    margin-left: 5px;
-    margin-bottom: 3px;
-  }
-  .contacto p {
-    font-size: 13px;
-    margin-top: 20px;
-    padding-left: 10px;
-    padding-right: 10px;
-    color: white;
-  }
-  .contacto p.telefono {
-    margin-left: 9%;
-    grid-row: 6/7;
-    grid-column: 2/3;
-  }
-}
-@media only screen and (max-width: 600px) {
-  footer {
-    padding-top: 70px;
-    padding-bottom: 10px;
-    height: 450px;
-    background-color: #4b968f;
-    text-align: center;
-  }
-  .icons {
-    width: 20px;
-    height: 20px;
-  }
-  .contacto {
-    margin: 20px;
-    border-radius: 10px;
-    display: grid;
-    grid-template-columns: 100%;
-    grid-template-rows: 20px 30px 40px 30px 30px 30px 30px;
-    justify-items: start;
-    align-items: center;
-    height: 150px;
-    width: 100%;
-    padding-top: 20px;
-  }
-  .contacto h3 {
-    font-family: "kadwa", "sherif";
-    font-size: 20px;
-    font-weight: bold;
-    color: white;
-  }
-  .contacto h3.ubicaciones {
-    grid-row: 1/2;
-    grid-column: 1/2;
-    align-self: center;
-  }
-  .contacto h3.comunicaciones {
-    margin-top: 30px;
-    grid-row: 5/6;
-    grid-column: 1/2;
-    align-self: center;
-  }
-  .contacto .color-1 {
-    color: #4b968f;
-  }
-  .contacto .color-2 {
-    color: #c42340;
-  }
-  .contacto div.separador-1 {
-    grid-row: 2/3;
-    grid-column: 1/2;
-    align-self: center;
-    justify-self: baseline;
-    width: 100px;
-    height: 3px;
-    border-radius: 3px;
-    background-color: white;
-  }
-  .contacto div.separador-2 {
-    grid-row: 6/7;
-    grid-column: 1/2;
-    align-self: center;
-    justify-self: baseline;
-    width: 100px;
-    height: 3px;
-    border-radius: 3px;
-    background-color: white;
-  }
-  .contacto div.redes {
-    grid-row: 7/8;
-    grid-column: 1/2;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-  }
-  .contacto a {
-    font-size: 15px;
-    text-decoration: none;
-    align-self: center;
-    margin-left: 20%;
-    padding: 2px;
-  }
-  .contacto a:link {
-    color: white;
-  }
-  .contacto a:hover {
-    border-radius: 5px;
-    background-color: white;
-    color: gray;
-  }
-  .contacto a.lugar-1 {
-    grid-row: 3/4;
-    grid-column: 1/2;
-  }
-  .contacto a.lugar-2 {
-    margin-top: 20px;
-    grid-row: 4/5;
-    grid-column: 1/2;
-  }
-  .contacto a.instagram {
-    margin-top: 10px;
-  }
-  .contacto a.facebook {
-    margin-top: 10px;
-  }
-  .contacto a.gmail {
-    margin-top: 30px;
-    grid-row: 9/10;
-    grid-column: 1/2;
-    margin-left: 10%;
-  }
-  .contacto .icons {
-    margin-left: 5px;
-    margin-bottom: 3px;
-  }
-  .contacto p {
-    font-size: 10px;
-    margin-top: 20px;
-    padding-left: 10px;
-    padding-right: 10px;
-    color: white;
-  }
-  .contacto p.telefono {
-    margin-left: 9%;
-    grid-row: 10/11;
-    grid-column: 1/2;
   }
 }
 
