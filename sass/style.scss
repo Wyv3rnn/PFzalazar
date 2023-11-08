@@ -1,7 +1,7 @@
 @import "nav";
 @import "footer";
 @import "../sass/main/main";
-@import "../sass/turnos/turnos";
+@import "../sass/turnos";
 @import "../sass/profesionales/profesionales";
 @import"../sass/obras-sociales/obras-sociales";
 @import"../sass/biografia/biografia";
@@ -10,15 +10,3 @@
 @import"../sass/responsive/turnos";
 @import "../sass/responsive/biografia";
 @import"../sass/responsive/footer";
-@media only screen and (min-width:700px) {
-    .titulo-turnos{
-        position: relative;
-        display: grid;
-        grid-template-columns: repeat(10, 10%);
-        grid-template-rows: repeat(10,30px);
-        background-image: url(../images/card-1-img.svg);
-        background-size: cover;
-        height: 300px;
-        width: 100%;
-    }
-}
