@@ -410,13 +410,16 @@ main a :hover {
   font-family: "Istok Web", sans-serif;
 }
 
+.titulo-turnos {
+  background-image: url(../images/card-1-img.svg);
+}
+
 @media only screen and (min-width: 700px) {
   .titulo-turnos {
     position: relative;
     display: grid;
     grid-template-columns: repeat(10, 10%);
     grid-template-rows: repeat(10, 30px);
-    background-image: url(../images/card-1-img.svg);
     background-size: cover;
     height: 300px;
     width: 100%;
@@ -586,13 +589,16 @@ main a :hover {
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
+.titulos-profecionales {
+  background-image: url(../images/card-2-img.jpg);
+}
+
 @media only screen and (min-width: 700px) {
   .titulo-profecionales {
     position: relative;
     display: grid;
     grid-template-columns: repeat(10, 10%);
     grid-template-rows: repeat(10, 30px);
-    background-image: url(/images/card-2-img.jpg);
     background-size: cover;
     height: 300px;
     width: 100%;
@@ -756,13 +762,16 @@ main a :hover {
     width: 100%;
   }
 }
+.titulo-biografia {
+  background-image: url(../images/card-4-img.jpg);
+}
+
 @media only screen and (min-width: 700px) {
   .main-biografia .titulo-biografia {
     position: relative;
     display: grid;
     grid-template-columns: repeat(10, 10%);
     grid-template-rows: repeat(10, 30px);
-    background-image: url(/images/card-4-img.jpg);
     background-size: cover;
     height: 350px;
     width: 100%;
@@ -891,7 +900,6 @@ main a :hover {
     display: grid;
     grid-template-columns: repeat(10, 10%);
     grid-template-rows: repeat(10, 30px);
-    background-image: url(/images/card-2-img.jpg);
     background-size: cover;
     height: 300px;
     width: 100%;
@@ -1057,7 +1065,6 @@ main a :hover {
     display: grid;
     grid-template-columns: repeat(10, 10%);
     grid-template-rows: repeat(10, 30px);
-    background-image: url(/images/card-1-img.svg);
     background-size: cover;
     height: 300px;
     width: 100%;
@@ -1169,7 +1176,6 @@ main a :hover {
     display: grid;
     grid-template-columns: repeat(10, 10%);
     grid-template-rows: repeat(10, 30px);
-    background-image: url(/images/card-4-img.jpg);
     background-size: cover;
     height: 300px;
     width: 100%;

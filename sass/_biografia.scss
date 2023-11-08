@@ -1,3 +1,6 @@
+.titulo-biografia{
+    background-image: url(../images/card-4-img.jpg);
+}
 @media only screen and (min-width:700px) {
     .main-biografia {
         .titulo-biografia{
@@ -5,7 +8,6 @@
             display: grid;
             grid-template-columns: repeat(10, 10%);
             grid-template-rows: repeat(10,30px);
-            background-image: url(/images/card-4-img.jpg);
             background-size: cover;
             height: 350px;
             width: 100%;
