@@ -532,6 +532,10 @@ main a :hover {
   background-color: white;
 }
 
+.titulo-profecionales {
+  background-image: url(../images/card-2-img.jpg);
+}
+
 .Boton {
   -bs-btn-color: #fff;
   --bs-btn-border-color: #6c757d;
@@ -587,10 +591,6 @@ main a :hover {
   -moz-user-select: none;
   user-select: none;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-}
-
-.titulos-profecionales {
-  background-image: url(../images/card-2-img.jpg);
 }
 
 @media only screen and (min-width: 700px) {

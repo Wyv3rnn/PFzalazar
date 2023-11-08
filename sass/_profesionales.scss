@@ -2,6 +2,9 @@
 .main-profecionales {
     background-color: #ffff;
 }
+.titulo-profecionales{
+    background-image: url(../images/card-2-img.jpg);
+}
 
 .Boton {
     &:hover{
@@ -59,9 +62,7 @@
     user-select: none;
     transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 }
-.titulos-profecionales{
-    background-image: url(../images/card-2-img.jpg);
-}
+
 @media only screen and (min-width:700px) {
     .titulo-profecionales{
         position: relative;
