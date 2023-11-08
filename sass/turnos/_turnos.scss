@@ -19,15 +19,6 @@
 
 @media only screen and (min-width:700px) {
     .titulo-turnos{
-        position: relative;
-        display: grid;
-        grid-template-columns: repeat(10, 10%);
-        grid-template-rows: repeat(10,30px);
-        background-image: url(/images/card-1-img.svg);
-        z-index: 1;
-        background-size: cover;
-        height: 300px;
-        width: 100%;
         &::before{
             position: absolute;
             content:"" ;

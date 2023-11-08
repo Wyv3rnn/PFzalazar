@@ -411,17 +411,6 @@ main a :hover {
 }
 
 @media only screen and (min-width: 700px) {
-  .titulo-turnos {
-    position: relative;
-    display: grid;
-    grid-template-columns: repeat(10, 10%);
-    grid-template-rows: repeat(10, 30px);
-    background-image: url(/images/card-1-img.svg);
-    z-index: 1;
-    background-size: cover;
-    height: 300px;
-    width: 100%;
-  }
   .titulo-turnos::before {
     position: absolute;
     content: "";
@@ -1535,6 +1524,19 @@ main a :hover {
 .icons {
   width: 30px;
   height: 30px;
+}
+
+@media only screen and (min-width: 700px) {
+  .titulo-turnos {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(10, 10%);
+    grid-template-rows: repeat(10, 30px);
+    background-image: url(../images/card-1-img.svg);
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
