@@ -827,6 +827,7 @@ main a :hover {
     animation-iteration-count: infinite;
   }
   .carteles {
+    z-index: 10;
     display: grid;
     grid-template-columns: 120px 120px;
     grid-template-rows: 170px 170px;
