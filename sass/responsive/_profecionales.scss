@@ -52,70 +52,161 @@
         grid-template-columns: auto;
         row-gap: 20px;
         margin-top: 10px;
+        margin-bottom: 20px;
         padding: 0px 5px 5px 5px;
     }
     .especialidad-1 {
+        position: relative;
         display: flex;
         font-size: 100%;
-        background-image: url(../images/especialidad-1.webp);
+        background-image: url(../images/especialidad-1.jpg);
         justify-content: center;
         align-items: center;
         background-size: 100% 300px;
-        border: 2px #4b968f solid;
         border-radius: 5px;
+        &::before{
+            position: absolute;
+            content:"" ;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            background-image: linear-gradient(90deg, #4b968eaf 50%, #1d2cb180 100%);
+            border-radius: 5px;
+        }
+        &:hover{
+            animation-name: Efecto-card;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+        }
     }
     .especialidad-2 {
+        position: relative;
         display: flex;
         font-size: 100%;
         background-image: url(../images/especialidad-2.jpg);
         justify-content: center;
         align-items: center;
         background-size: 100% 300px;
-        border: 2px #4b968f solid;
         border-radius: 5px;
+        &::before{
+            position: absolute;
+            content:"" ;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            background-image: linear-gradient(90deg, #4b968eaf 50%, #1d2cb180 100%);
+            border-radius: 5px;
+        }
+        &:hover{
+            animation-name: Efecto-card;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+        }
     }
     .especialidad-3 {
+        position: relative;
         display: flex;
         font-size: 100%;
         background-image: url(../images/especialidad-3.webp);
         justify-content: center;
         align-items: center;
         background-size: 100% 300px;
-        border: 2px #4b968f solid;
         border-radius: 5px;
+        &::before{
+            position: absolute;
+            content:"" ;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            background-image: linear-gradient(90deg, #4b968eaf 50%, #1d2cb180 100%);
+            border-radius: 5px;
+        }
+        &:hover{
+            animation-name: Efecto-card;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+        }
     }
 
     .especialidad-4 {
+        position: relative;
         display: flex;
         font-size: 100%;
         background-image: url(../images/especialidad-4.webp);
         justify-content: center;
         align-items: center;
         background-size: 100% 300px;
-        border: 2px #4b968f solid;
         border-radius: 5px;
+        &::before{
+            position: absolute;
+            content:"" ;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            background-image: linear-gradient(90deg, #4b968eaf 50%, #1d2cb180 100%);
+            border-radius: 5px;
+        }
+        &:hover{
+            animation-name: Efecto-card;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+        }
     }
 
     .especialidad-5 {
+        position: relative;
         display: flex;
         font-size: 100%;
         background-image: url(../images/especialidad-5.jpg);
         justify-content: center;
         align-items: center;
         background-size: 100% 300px;
-        border: 2px #4b968f solid;
         border-radius: 5px;
+        &::before{
+            position: absolute;
+            content:"" ;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            background-image: linear-gradient(90deg, #4b968eaf 50%, #1d2cb180 100%);
+            border-radius: 5px;
+        }
+        &:hover{
+            animation-name: Efecto-card;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+        }
     }
 
     .especialidad-6 {
+        position: relative;
         display: flex;
         font-size: 100%;
         background-image: url(../images/especialidad-6.jpg);
         justify-content: center;
         align-items: center;
         background-size: 100% 300px;
-        border: 2px #4b968f solid;
         border-radius: 5px;
+        &::before{
+            position: absolute;
+            content:"" ;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            background-image: linear-gradient(90deg, #4b968eaf 50%, #1d2cb180 100%);
+            border-radius: 5px;
+        }
+        &:hover{
+            animation-name: Efecto-card;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+        }
     }
 
     .carteles {

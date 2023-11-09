@@ -1,3 +1,17 @@
+@keyframes efecto-footer{
+    0%{
+        background-color: transparent;
+    }
+    80%{
+        background-color: #fff;
+        color: black;
+    }
+    100%{
+        background-color: #fff;
+        color: black;
+        border-radius: 6px;
+    }
+}
 @media only screen and (min-width:725px){
 footer {
     padding-top: 100px;
@@ -32,10 +46,9 @@ footer {
                 }
             }
             a:hover{
-                background-color: #ffff;
-                color:black;
-                border-radius: 4px;
-                
+                animation-name:efecto-footer;
+                animation-duration: 1s;
+                animation-fill-mode: forwards;
             }
             .lugar-1{
                 justify-self: start;
@@ -80,10 +93,9 @@ footer {
                 grid-template-rows: 40px 30px 30px;
                 justify-content: start;
                 a:hover{
-                    background-color: white;
-                    color:black;
-                    border-radius: 4px;
-                    
+                    animation-name:efecto-footer;
+                    animation-duration: 1s;
+                    animation-fill-mode: forwards;
                 }
                 .facebook{
                     grid-row: 1/2;
