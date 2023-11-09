@@ -210,6 +210,7 @@
     }
 
     .carteles {
+        z-index: 10;
         display: grid;
         grid-template-columns: 120px 120px;
         grid-template-rows: 170px 170px;
@@ -219,6 +220,7 @@
     }
 
     .cartel-medico {
+        z-index: 10;
         display: flex;
         align-items: center;
         flex-direction: column-reverse;

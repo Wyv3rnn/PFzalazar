@@ -836,6 +836,7 @@ main a :hover {
     text-align: center;
   }
   .cartel-medico {
+    z-index: 10;
     display: flex;
     align-items: center;
     flex-direction: column-reverse;
@@ -1218,6 +1219,7 @@ main a :hover {
     animation-iteration-count: infinite;
   }
   .carteles {
+    z-index: 10;
     display: grid;
     grid-template-columns: 120px 120px;
     grid-template-rows: 170px 170px;
@@ -1226,6 +1228,7 @@ main a :hover {
     text-align: center;
   }
   .cartel-medico {
+    z-index: 10;
     display: flex;
     align-items: center;
     flex-direction: column-reverse;
