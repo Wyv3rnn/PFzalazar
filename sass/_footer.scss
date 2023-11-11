@@ -1,17 +1,4 @@
-@keyframes efecto-footer{
-    0%{
-        background-color: transparent;
-    }
-    80%{
-        background-color: #fff;
-        color: black;
-    }
-    100%{
-        background-color: #fff;
-        color: black;
-        border-radius: 6px;
-    }
-}
+
 @media only screen and (min-width:725px){
 footer {
     padding-top: 100px;

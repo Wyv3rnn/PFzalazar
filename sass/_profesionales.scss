@@ -8,9 +8,15 @@
 
 .Boton {
     &:hover{
-        color: #4b968f;
-        background-color: #ffff;
+        
+        animation-name: efecto-carteles;
+        animation-fill-mode: forwards;
+        animation-duration: 1s;
     }
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-align: center;
     -bs-btn-color: #fff;
     --bs-btn-border-color: #6c757d;
     --bs-btn-hover-color: #fff;
@@ -62,17 +68,7 @@
     user-select: none;
     transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 }
-@keyframes Efecto-card{
-    0%{
-        transform: scale(1,1);
-    }
-    50%{
-        transform: scale(1.01,1.01);
-    }
-    100%{
-        transform: scale(1,1);
-    }
-}
+
 
 @media only screen and (min-width:700px) {
     .titulo-profecionales{
@@ -123,7 +119,7 @@
     .especialidades {
         display: grid;
         grid-template-rows: 300px 300px 300px;
-        grid-template-columns: auto auto;
+        grid-template-columns: 50% 50%;
         padding-left: 10px;
         padding-right: 10px;
         column-gap: 20px;
@@ -152,9 +148,10 @@
             border-radius: 5px;
         }
         &:hover{
-            animation-name: Efecto-card;
-            animation-duration: 3s;
-            animation-iteration-count: infinite;
+            
+                animation-name: Efecto-card;
+                animation-duration: 2;
+                animation-fill-mode: forwards;
         }
     }
 
@@ -178,11 +175,6 @@
             background-image: linear-gradient(90deg, #4b968eaf 50%, #1d2cb180 100%);
             border-radius: 5px;
         }
-        &:hover{
-            animation-name: Efecto-card;
-            animation-duration: 3s;
-            animation-iteration-count: infinite;
-        }
     }
 
     .especialidad-3 {
@@ -203,11 +195,6 @@
             left: 0;
             background-image: linear-gradient(90deg, #4b968eaf 50%, #1d2cb180 100%);
             border-radius: 5px;
-        }
-        &:hover{
-            animation-name: Efecto-card;
-            animation-duration: 3s;
-            animation-iteration-count: infinite;
         }
     }
 
@@ -230,11 +217,6 @@
             background-image: linear-gradient(90deg, #4b968eaf 50%, #1d2cb180 100%);
             border-radius: 5px;
         }
-        &:hover{
-            animation-name: Efecto-card;
-            animation-duration: 3s;
-            animation-iteration-count: infinite;
-        }
     }
 
     .especialidad-5 {
@@ -255,11 +237,6 @@
             left: 0;
             background-image: linear-gradient(90deg, #4b968eaf 50%, #1d2cb180 100%);
             border-radius: 5px;
-        }
-        &:hover{
-            animation-name: Efecto-card;
-            animation-duration: 3s;
-            animation-iteration-count: infinite;
         }
     }
 
@@ -282,25 +259,17 @@
             background-image: linear-gradient(90deg, #4b968eaf 50%, #1d2cb180 100%);
             border-radius: 5px;
         }
-        &:hover{
-            animation-name: Efecto-card;
-            animation-duration: 3s;
-            animation-iteration-count: infinite;
-        }
     }
-
     .carteles {
-        z-index: 10;
         display: grid;
         grid-template-columns: 120px 120px;
-        grid-template-rows: 170px 170px;
+        grid-template-rows: 160px 160px;
         align-items: center;
         justify-content: center;
         text-align: center;
     }
 
     .cartel-medico {
-        z-index: 10;
         display: flex;
         align-items: center;
         flex-direction: column-reverse;
@@ -312,7 +281,7 @@
     }
 
     .img-medico {
-        height: 75px;
+        height: 60px;
         width: 75PX;
     }
 }

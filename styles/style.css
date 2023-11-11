@@ -20,20 +20,6 @@ header {
   z-index: 10;
 }
 
-@keyframes efecto-footer {
-  0% {
-    background-color: transparent;
-  }
-  80% {
-    background-color: #fff;
-    color: black;
-  }
-  100% {
-    background-color: #fff;
-    color: black;
-    border-radius: 6px;
-  }
-}
 @media only screen and (min-width: 725px) {
   footer {
     padding-top: 100px;
@@ -551,6 +537,10 @@ main a :hover {
 }
 
 .Boton {
+  display: block;
+  height: 100%;
+  width: 100%;
+  text-align: center;
   -bs-btn-color: #fff;
   --bs-btn-border-color: #6c757d;
   --bs-btn-hover-color: #fff;
@@ -570,8 +560,9 @@ main a :hover {
   padding: 5px;
 }
 .Boton:hover {
-  color: #4b968f;
-  background-color: white;
+  animation-name: efecto-carteles;
+  animation-fill-mode: forwards;
+  animation-duration: 1s;
 }
 
 .btn {
@@ -607,17 +598,6 @@ main a :hover {
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
-@keyframes Efecto-card {
-  0% {
-    transform: scale(1, 1);
-  }
-  50% {
-    transform: scale(1.01, 1.01);
-  }
-  100% {
-    transform: scale(1, 1);
-  }
-}
 @media only screen and (min-width: 700px) {
   .titulo-profecionales {
     position: relative;
@@ -667,7 +647,7 @@ main a :hover {
   .especialidades {
     display: grid;
     grid-template-rows: 300px 300px 300px;
-    grid-template-columns: auto auto;
+    grid-template-columns: 50% 50%;
     padding-left: 10px;
     padding-right: 10px;
     column-gap: 20px;
@@ -698,8 +678,8 @@ main a :hover {
   }
   .especialidad-1:hover {
     animation-name: Efecto-card;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
+    animation-duration: 2;
+    animation-fill-mode: forwards;
   }
   .especialidad-2 {
     position: relative;
@@ -721,11 +701,6 @@ main a :hover {
     background-image: linear-gradient(90deg, rgba(75, 150, 142, 0.6862745098) 50%, rgba(29, 44, 177, 0.5019607843) 100%);
     border-radius: 5px;
   }
-  .especialidad-2:hover {
-    animation-name: Efecto-card;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
-  }
   .especialidad-3 {
     position: relative;
     display: flex;
@@ -745,11 +720,6 @@ main a :hover {
     left: 0;
     background-image: linear-gradient(90deg, rgba(75, 150, 142, 0.6862745098) 50%, rgba(29, 44, 177, 0.5019607843) 100%);
     border-radius: 5px;
-  }
-  .especialidad-3:hover {
-    animation-name: Efecto-card;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
   }
   .especialidad-4 {
     position: relative;
@@ -771,11 +741,6 @@ main a :hover {
     background-image: linear-gradient(90deg, rgba(75, 150, 142, 0.6862745098) 50%, rgba(29, 44, 177, 0.5019607843) 100%);
     border-radius: 5px;
   }
-  .especialidad-4:hover {
-    animation-name: Efecto-card;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
-  }
   .especialidad-5 {
     position: relative;
     display: flex;
@@ -795,11 +760,6 @@ main a :hover {
     left: 0;
     background-image: linear-gradient(90deg, rgba(75, 150, 142, 0.6862745098) 50%, rgba(29, 44, 177, 0.5019607843) 100%);
     border-radius: 5px;
-  }
-  .especialidad-5:hover {
-    animation-name: Efecto-card;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
   }
   .especialidad-6 {
     position: relative;
@@ -821,22 +781,15 @@ main a :hover {
     background-image: linear-gradient(90deg, rgba(75, 150, 142, 0.6862745098) 50%, rgba(29, 44, 177, 0.5019607843) 100%);
     border-radius: 5px;
   }
-  .especialidad-6:hover {
-    animation-name: Efecto-card;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
-  }
   .carteles {
-    z-index: 10;
     display: grid;
     grid-template-columns: 120px 120px;
-    grid-template-rows: 170px 170px;
+    grid-template-rows: 160px 160px;
     align-items: center;
     justify-content: center;
     text-align: center;
   }
   .cartel-medico {
-    z-index: 10;
     display: flex;
     align-items: center;
     flex-direction: column-reverse;
@@ -846,7 +799,7 @@ main a :hover {
     font-size: 90%;
   }
   .img-medico {
-    height: 75px;
+    height: 60px;
     width: 75PX;
   }
 }
@@ -1751,6 +1704,34 @@ main a :hover {
 .icons {
   width: 30px;
   height: 30px;
+}
+
+/*------------------------------efectos page-profecionales----------------------------*/
+@keyframes Efecto-card {}
+@keyframes efecto-carteles {
+  50% {
+    font-size: 88%;
+    justify-self: center;
+    align-self: center;
+  }
+  100% {
+    color: #4b968f;
+    background-color: white;
+  }
+}
+@keyframes efecto-footer {
+  0% {
+    background-color: transparent;
+  }
+  80% {
+    background-color: #fff;
+    color: black;
+  }
+  100% {
+    background-color: #fff;
+    color: black;
+    border-radius: 6px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
